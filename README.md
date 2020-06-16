@@ -17,10 +17,9 @@ I do looking forward to make this project look *production ready* , but don't ta
 
 
 | Original | Equivalent | Status | Reference |
-
+| ------------ | ------------- | ------------ | ------------- |
 | CorrelationMiddleware | CorrelationIdInterceptor|WIP|Global Interceptor|
-
-| ExecutionContextAccessor|ExecutionContextInterceptor/Guard| NOT DONE| Global interceptor|
+| ExecutionContextAccessor | ExecutionContextInterceptor/Guard | NOT DONE| Global interceptor |
 
 | Authentication | nestjs/auth/passport | WIP | https://dev.to/alesanchez/building-authentication-for-microservices-using-nestjs-1fne
 
