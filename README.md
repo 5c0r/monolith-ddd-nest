@@ -6,6 +6,8 @@ This is likely to see how things can be reproduced in Node.js , in this case I w
 
 The project is scaffolded using Nest.js CLI
 
+I do looking forward to make this project look *production ready* , but don't take it as a promise , yet :) . As long as I have time, anything is possible
+
 ## Functional TODO
 
 - Dockerfile for WHAT ?
@@ -14,8 +16,12 @@ The project is scaffolded using Nest.js CLI
 ## Comparision Table / Feature listings
 
 
-|Original|Equivalent|Status|Reference|
+| Original | Equivalent | Status | Reference |
 
-CorrelationMiddleware|CorrelationIdInterceptor|WIP|Global Interceptor
+| CorrelationMiddleware | CorrelationIdInterceptor|WIP|Global Interceptor|
 
-ExecutionContextAccessor|ExecutionContextInterceptor/Guard| NOT DONE| Global interceptor
+| ExecutionContextAccessor|ExecutionContextInterceptor/Guard| NOT DONE| Global interceptor|
+
+| Authentication | nestjs/auth/passport | WIP | https://dev.to/alesanchez/building-authentication-for-microservices-using-nestjs-1fne
+
+
