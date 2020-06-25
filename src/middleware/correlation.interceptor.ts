@@ -15,6 +15,7 @@ export class CorrelationInterceptor implements NestInterceptor {
     context: ExecutionContext,
     next: CallHandler<any>,
   ): Observable<any> | Promise<Observable<any>> {
+
     const request = context.switchToHttp().getRequest();
     request.headers[CorrelationInterceptor.CorrelationIdHeader] = uuid();
     return next.handle();

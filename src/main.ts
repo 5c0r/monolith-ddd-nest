@@ -8,6 +8,7 @@ async function bootstrap() {
 
   app.useGlobalInterceptors(new CorrelationInterceptor());
 
+  // TODO: Security , how ?
   const swaggerOptions = new DocumentBuilder()
     .setTitle('Meeting API')
     .setDescription('Meeting API description')
